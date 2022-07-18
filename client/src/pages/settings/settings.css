@@ -1,0 +1,194 @@
+.settings {
+  display: flex;
+}
+
+.settingsWrapper {
+  flex: 9;
+  padding: 20px;
+}
+
+.settingsTitle { 
+display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Anton', sans-serif;
+  color: black;
+  margin-bottom: 5%;
+  border-radius: 5% 5% 5% 5%;
+  font-size: 175%;
+  background-color: #a469691a;
+  text-decoration: none;
+
+}
+.settingsTitle:hover {
+  background: #000;
+  color: aliceblue;
+}
+
+.settingsTitleUpdate {
+  font-size: 30px;
+
+  color: black;
+  align-self: center; 
+}
+
+
+
+.settingsTitleDelete {
+  color: red;
+  font-size: 12px;
+  cursor: pointer;
+}
+.self{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.end{
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  
+
+}
+
+.settingsForm {
+  display: flex;
+  flex-direction: column;
+}
+
+.settingsPP {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.settingsPP > img {
+  height: 70px;
+  width: 70px;
+  border-radius: 20px;
+  object-fit: cover;
+}
+
+.settingsPPIcon {
+  width: 25px;
+  height: 25px;
+  padding: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  border-radius: 50%;
+  margin-left: 10px;
+  color: white;
+  background-color: lightcoral;
+  cursor: pointer;
+}
+
+.settingsPPButton:focus {
+  outline-style: none;
+}
+
+.settingsForm > label {
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+.settingsPPInput {
+  width: 30%;
+ } 
+ .settingDelete{
+font-size: 14px;
+  color: red;
+
+ }
+ .settingDetails
+ {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-left: 2%;
+  margin-bottom: 2%;
+  
+
+ }
+ .detailtitle{
+  color: #434242;
+  font-size: 150%;
+ }
+ .detailuser{
+  font-size: 125%;
+  color: #292323b3;
+ }
+ .settingtitle{
+  text-align: center;
+ 
+  font-family: "Lora", serif;
+  font-size: 28px;
+ }
+ .settingsDetailPP{
+  height: 100px;
+  width: 100px;
+  border-radius: 20px;
+  object-fit: cover;
+
+ }
+.settingsForm > input {
+  color: gray;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  height: 30px;
+  border: none;
+  border-bottom: 1px solid lightgray;
+}
+
+.singlePostEdit {
+  float: right;
+  font-size: 16px;
+}
+
+.singlePostIcon {
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.singlePostIcon:first-child {
+  color: teal;
+}
+
+.singlePostIcon:last-child {
+  color: tomato;
+}
+
+.settingsSubmitButton {
+  align-self: center;
+  width: 150px;
+  border: none;
+  border-radius: 10px;
+  color: white;
+  background-color: teal;
+  padding: 10px;
+  margin-top: 20px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.settingsSubmitButton:hover {
+  background-color: rgb(1, 114, 114);
+}
+.hidden{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+    font-size: 110%;
+  align-self: center;
+  margin-top: 5%;
+ 
+  
+}
