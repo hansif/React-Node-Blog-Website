@@ -22,11 +22,11 @@ function App() {
         <Route exact path="/about">
           <About />
         </Route>
-        <Route path="/register">{user ? <Home /> : <Register />}</Route>
-        <Route path="/login">{user ? <Home /> : <Login />}</Route>
-        <Route path="/write">{user ? <Write /> : <Register />}</Route>
-        <Route path="/settings">{user ? <Settings /> : <Register />}</Route>
-        <Route path="/post/:postId">
+        <Route exact path="/register">{user ? <Home /> : <Register />}</Route>
+        <Route exact path="/login">{user ? <Home /> : <Login />}</Route>
+        <Route exact path="/write">{user ? <Write /> : <Register />}</Route>
+        <Route exact path="/settings">{user ? <Settings /> : <Register />}</Route>
+        <Route exact path="/post/:postId">
           <Single />
         </Route>
       </Switch>
