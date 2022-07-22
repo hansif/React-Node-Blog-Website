@@ -67,6 +67,7 @@ export default function Write() {
 
         <label className = "cats" for="cats">Choose a cat</label>
         <select className = "menu" id="cat" name="cat" onChange={e => setCategories(e.target.value)}>
+        <option value="">Select the options</option>
           {cats.map((c) => (
             <option value={c.name}>{c.name}</option>
 
